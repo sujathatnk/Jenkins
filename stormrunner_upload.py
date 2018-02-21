@@ -30,7 +30,7 @@ def getTokenAndScripts(signin_url,user_name,password,tenant):
         "http"  : "http://ep.threatpulse.net:80"
     }
     # Send the request to the server
-    req = requests.post(signin_url, json=payload, headers=headers, proxies=proxy)
+    req = requests.post(signin_url, json=payload, headers=headers)
     req.raise_for_status()                   
     # Get the response
     response = json.loads(req.content.decode('utf-8'))
@@ -38,7 +38,7 @@ def getTokenAndScripts(signin_url,user_name,password,tenant):
     #print('\tToken: {token}'.format(token=token))
     getScripts_url = "https://stormrunner-load.saas.hpe.com/v1/projects/1/scripts?TENANTID="+tenant
     cookie = {'LWSSO_COOKIE_KEY': token}
-    r = requests.get(getScripts_url,cookies=cookie,proxies=proxy)
+    r = requests.get(getScripts_url,cookies=cookie)
     json_str = json.dumps(r.json())
     json_file = open(source_dir+"/"+"scripts.json",'w')
     json_file.write(json_str)
