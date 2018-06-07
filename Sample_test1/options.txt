@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\Users\GM51516\Documents\VuGen\Scripts\Sample_test
--IC:\Program Files (x86)\HPE\Virtual User Generator\include
--ed:\users\gm51516\documents\vugen\scripts\sample_test\\logfile.log
-d:\users\gm51516\documents\vugen\scripts\sample_test\\combined_Sample_test.c
-d:\users\gm51516\documents\vugen\scripts\sample_test\\pre_cci.c
