@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\GM51516\Desktop\Cognos_DevTes_Maintenance_RW1_PEP_0015
--IC:\Program Files (x86)\HPE\Virtual User Generator\include
--ec:\users\gm51516\desktop\cognos_devtes_maintenance_rw1_pep_0015\\logfile.log
-c:\users\gm51516\desktop\cognos_devtes_maintenance_rw1_pep_0015\\combined_Cognos_DevTes_Maintenance_RW1_PEP_0015.c
-c:\users\gm51516\desktop\cognos_devtes_maintenance_rw1_pep_0015\\pre_cci.c
